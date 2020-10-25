@@ -11,9 +11,9 @@
     <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 </p>
 
-# How to use
+## How to use
 
-## Install the Pypi package using pip
+### Install the Pypi package using pip
 
 ```
 pip install fpgrowth_py
@@ -32,7 +32,7 @@ print(rules)
 # rules[0] --> rules[1], confidence = rules[2]
 ```
 
-## Clone the repo
+### Clone the repo
 
 Get a copy of this repo using git clone
 ```
