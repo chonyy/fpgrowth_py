@@ -1,5 +1,5 @@
 <p align=center>
-    <img src="fpgrowth.PNG">
+    <img src="fpgrowth.PNG" width="468" height="303">
 </p>
 
 <p align=center>
