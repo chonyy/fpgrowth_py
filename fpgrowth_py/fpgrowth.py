@@ -50,4 +50,5 @@ if __name__ == "__main__":
     freqItemSet, rules = fpgrowthFromFile(
         options.inputFile, options.minSup, options.minConf)
 
+    print(freqItemSet)
     print(rules)
