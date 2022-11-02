@@ -39,7 +39,7 @@ def constructTree(itemSetList, frequency, minSup):
             headerTable[item] += frequency[idx]
 
     # Deleting items below minSup
-    headerTable = dict((item, sup) for item, sup in headerTable.items() if sup >= minSup)
+    headerTable = dict((item, sup) for item, sup in headerTable.items() if sup <= minSup)
     if(len(headerTable) == 0):
         return None, None
 
